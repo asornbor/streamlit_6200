@@ -1,5 +1,3 @@
-with open("streamlit_app.py", "w") as f:
-  f.write("""
 import streamlit as st
 from langchain.llms import OpenAI
 st.title('🦜🔗 Quickstart App')
@@ -18,4 +16,4 @@ with st.form('my_form'):
   if submitted and openai_api_key.startswith('sk-'):
     generate_response(text)
 
-    """)
+ 
